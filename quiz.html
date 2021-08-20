@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computing Quiz</title>
+    </head>
+    <body>
+        <h1 >Runshaw College Computing Quiz</h1>
+<hr>
+<table cellspacing="10">
+<tr>
+    <td><a href="index.html">Home</a></td>
+    <td><a href="gallery.html">Gallery</a></td>
+</tr>
+</table>
+<hr>
+<form name="quiz">
+    <h3>Welcome to the Computing Department Quiz!</h3>
+    <p>
+    <label for="fullname">What is your name?: </label>
+    <input type ="text" id="fullname" name="userfullname">
+    </p>
+    <p>
+    <label for="name">What shall I call you?: </label>
+    <input type="text" id="name" name ="name" >
+    </p>
+    <h3>Question 1: What type of language is HTML?</h3>
+    <p>
+    <input type="radio" id="web" name="question1" value="Web">
+    <label for="web">Web</label><br>
+    <input type="radio" id="markup" name="question1" value="Markup">
+    <label for="markup">Markup</label><br>   
+    <input type="radio" id="scripting" name="question1" value="ALevel">
+    <label for="scripting">A-Level</label>
+    </p>
+    <h3>Question 2: Check all the Python libraries:</h3>
+    <p>
+    <input type="checkbox" id="numpy" name="question2" value="NumPy">
+    <label for="numpy">NumPy</label><br> 
+    <input type="checkbox" id="leopard" name="question2" value="Leopard">
+    <label for="leopard">Leopard</label><br> 
+    <input type="checkbox" id="pandas" name="question2" value="Pandas">
+    <label for="pandas">Pandas</label><br> 
+    <input type="checkbox" id="graphily" name="question2" value="Graphily">
+    <label for="graphily">Graphily</label>
+    </p>  
+    <h3>Question 3: What logical operation returns True only if bothe conditions are True?</h3>
+    <p>
+    <label for="logical">Answer here: </label>
+    <input type ="text" id="logical" name="question3">
+    </p>
+    <h3>Question 4: How many heading sizes are there in HTML?</h3> 
+    <p>
+    <label for="headingsize">Answer here: </label>
+    <input type="number" id="headingsize" name="answerq4" min="0" max="20" step="1">  
+    </p>
+    <h3>Question 5: The title tag should be nested inside which other tags on a HTML page? </h3>
+    <p>
+    <label for="titletag">Answer here: </label>
+    <input type ="text" id="titletag" name="question5">
+    </p>
+
+</form>
+
+    </body>
+</html>
