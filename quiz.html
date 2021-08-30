@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+       
+        <link rel="stylesheet" href="mystyle.css">
         <title>Computing Quiz</title>
     </head>
-    <body>
-        <h1 >Runshaw College Computing Quiz</h1>
+<body>
+<h1 id="heading">Runshaw College Computing Quiz</h1>
 <hr>
-<table cellspacing="10">
-<tr>
-    <td><a href="index.html">Home</a></td>
-    <td><a href="gallery.html">Gallery</a></td>
-</tr>
-</table>
+<ul class="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="quiz.html">Quiz</a></li>
+  </ul>
 <hr>
 <form name="quiz">
     <h3>Welcome to the Computing Department Quiz!</h3>
@@ -43,7 +44,7 @@
     <input type="checkbox" id="graphily" name="question2" value="Graphily">
     <label for="graphily">Graphily</label>
     </p>  
-    <h3>Question 3: What logical operation returns True only if bothe conditions are True?</h3>
+    <h3>Question 3: What logical operation returns True only if both conditions are True?</h3>
     <p>
     <label for="logical">Answer here: </label>
     <input type ="text" id="logical" name="question3">
@@ -59,10 +60,10 @@
     <input type ="text" id="titletag" name="question5">
     </p>
     <p>
-        A submit button will go here to submit form.
+    <button onclick="checkanswers()">Submit Answers</button>
     </p>
 
 </form>
-
+<script src="validate.js"></script>
     </body>
 </html>

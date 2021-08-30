@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="mystyle.css">
 <title>My first webpage</title>
 </head>
 <body>
-<h1 >Runshaw College Computing and IT department</h1>
+<h1 id="redheading">Runshaw College Computing and IT department</h1>
 <hr>
-<table cellspacing="10">
-<tr>
-    <td><a href="index.html">Home</a></td>
-    <td><a href="gallery.html">Gallery</a></td>
-</tr>
-</table>
+<ul class="navbar">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="quiz.html">Quiz</a></li>
+</ul>
 <hr>
 <!-- This is a comment it will not be displayed-->
-<p>
+<p class="firstparagraph">
 This page has been created to serve the fantastic community of 
 Runshaw computing students.
 </p>
-<h3>Runshaw college history.</h3>
+<h3 class="myclass">Runshaw college history.</h3>
 <p>
 Runshaw college was opened in 1974
 In the 1990s the college started An extensive building project. Each new building was named after a place in the Lake District.
@@ -37,16 +37,17 @@ superb links with the country’s top universities allowing the college to
 consistently have more than strong progression to the country’s elite 
 universities including <strong>Oxford and Cambridge.</strong>
 </p>
+<div class="courses"> 
 <h3>Runshaw college computing courses</h3>
 <ul>
-  <li>A-Level computer Science</li>
-  <li>BTEC computing</li>
-  <li>T-Level Digital</li>
-
+  <li><span style="color:lightcyan">A-Level computer Science</span></li>
+  <li><span style="color:lightgreen">BTEC computing</span></li>
+  <li><span style="color:darkorange">T-Level Digital</span></li>
 </ul>
+</div>
 <hr>
-<h3>Related links</h3>
-<ul>
+<h3 class="linksheader">Related links</h3>
+<ul class="navbar">
   <li><a href="https://qualifications.pearson.com/en/qualifications/t-levels/digital-production-design-and-development.html" target="_blank">T-level specification</a></li>
   <li><a href ="https://www.eduqas.co.uk/qualifications/computer-science-as-a-level/#tab_overview" target="_blank">A-Level specification</a></li>
   <li><a href="https://qualifications.pearson.com/en/qualifications/btec-nationals/computing-2016.html" target="_blank">BTEC specification</a></li>

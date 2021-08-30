@@ -1,0 +1,64 @@
+body {
+    background-color: #C2F9BB;
+    font-family: Verdana;
+}
+
+p {
+    background: #B8DEE0;
+    padding: 20px;
+    border: 15px solid #20063B;
+    margin:20px;
+    border-radius: 25px;
+    
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+} 
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    background-color: #111;
+  }
+
+.courses {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+a {
+    color: #20063B;
+}
+
+.tabledata {
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    padding:10px;
+    background: #EBADC1;
+}
+
+.listitem {
+    background-color: dimgray;
+
+}
+
+strong {
+    background-color: yellow;
+}
+
+.linksheader {
+    background-color: lightpink;
+}
