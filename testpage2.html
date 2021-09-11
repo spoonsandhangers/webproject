@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- This will not work unless the 
+    script is below the as the innerHTML is 
+    before the div that it is trying to add the html to -->
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>This page will display my answers:</h1>
+        <div id="result"></div>
+        <script>
+            let x = parseInt(prompt("please enter a number"));
+            let y = parseInt(prompt("please enter another number"));
+            
+            let z = x + y;
+            console.log(z);
+            document.getElementById("result").innerHTML = "<p>The numbers add up to: " + z + "</p>";
+            
+        </script>
+    </body>
+</html>
